@@ -8,7 +8,11 @@ package pelatihanhari2;
 
 public class Manusia {
     String nama;
-    int umur;        
+    int umur;  
+    
+    public Manusia(){
+        
+    }
     
     public Manusia(String nama){
         System.out.println("ini constructor, "+nama);

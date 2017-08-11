@@ -8,10 +8,13 @@ package pelatihanhari2;
 
 public class BelajarOOP {
     public static void main(String[] args) {
-        Manusia mns = new Manusia("Ilham"); 
+        Manusia mns = new Manusia();
         mns.nama = "Umar";
         mns.umur = 29;        
         mns.makan("Gudeg", "Jus");
-        System.out.println("Nama : "+mns.nama);
+//        System.out.println("Nama : "+mns.nama);
+        
+        Balita blt = new Balita();
+        blt.makan("bubur", "susu");
     }
 }
