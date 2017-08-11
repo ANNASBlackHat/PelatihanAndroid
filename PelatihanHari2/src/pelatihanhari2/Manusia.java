@@ -23,5 +23,8 @@ public class Manusia {
         System.out.println("Minum "+minuman);
     }
     
-    
+    public String getName(){
+        String name = "Ali";
+        return name;
+    }
 }

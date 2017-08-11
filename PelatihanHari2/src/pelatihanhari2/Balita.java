@@ -13,6 +13,7 @@ public class Balita extends Manusia{
     
     //Override
     public void makan(String makanan, String minuman){
+        super.makan(makanan, minuman);
         System.out.println("Saya belum makan");
     }
 }
